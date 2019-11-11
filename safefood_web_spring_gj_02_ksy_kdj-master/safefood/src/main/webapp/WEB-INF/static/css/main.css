@@ -1,0 +1,212 @@
+/* 로그인 네비게이션 */
+
+#login_place {
+	width: 100%;
+	height: 40px;
+	background: #242d35;
+}
+
+#login_place>.container {
+	height: 40px;
+}
+
+#login_nav {
+	float: right;
+	height: 40px;
+	margin-right: 30px;
+}
+
+.login_nav_btn {
+	width: 80px;
+	height: 30px;
+	font-size: 13px;
+}
+
+#nav_ul {
+	list-style: none;
+}
+
+#nav_ul>li {
+/* 	float: left; */
+	color: white;
+	margin: 5px;
+	border: 1px solid black;
+	border-radius: 5px;
+	font: 10px;
+	padding: 5px;
+}
+
+.login_btn {
+	margin: 5px;
+}
+
+/* 메뉴 네비게이션 */
+#menu_place {
+	position: relative;
+	width: 100%;
+	height: 100px;
+}
+
+#menu_place>.container {
+	height: 100px;
+}
+
+#img_place {
+	float: left;
+	width: 100px;
+	heigth: 100px;
+	margin: 20px;
+}
+
+#menu_nav {
+	float: right;
+	width: 950px;
+	margin-top: 15px;
+}
+
+#menu_nav>ul {
+	float: right;
+	list-style: none;
+	font-size: 15px;
+	margin: 10px 300px 10px 0px;
+}
+
+#menu_nav>ul>li {
+	float: left;
+	margin: 15px;
+}
+
+/* 상단 글귀 영역 */
+#top_place {
+	width: 100%;
+	height: 250px;
+	background: #8997AA;
+}
+
+#top_place>.container {
+	height: 250px;
+	text-align: center;
+	padding-top: 50px;
+}
+
+#top_title {
+	width: 550px;
+	height: 150px;
+	margin: auto;
+}
+
+#top_title>h1 {
+	text-align: center;
+	color: white;
+}
+
+#top_title > hr {
+	border-top: 1px solid #ccc;	
+}
+
+#top_title>h3 {
+	text-align: center;
+	color:white;
+}
+
+/* 검색 네비게이션 */
+#search_place {
+	width: 100%;
+	height: 150px;
+	background: #242d35;
+}
+
+.search_div {
+	float: left;
+	margin: 10px;
+}
+
+#search_place>.container {
+	height: 150px;
+	padding-top: 10px;
+}
+
+#condition {
+	width: 130px;
+}
+
+#search_word {
+	width: 400px;
+	heigth: 200px;
+}
+
+#search_place h5 {
+	color: gray;
+}
+
+#search_box {
+	width: 600px;
+	height: 110px;
+	margin: auto;
+	padding-top: 20px;
+}
+
+#text_button {
+	width: 450px;
+}
+
+#text_button>button { 
+	margin-left: 20px; 
+} 
+
+/* 푸터 영역 */
+#foot_place {
+	width: 100%;
+	height: 200px;
+	background: #242d35;
+	margin-top: 30px;
+}
+
+#foot_place>.container {
+	height: 200px;
+}
+
+#foot_text {
+	padding-top: 20px;
+	color:white;
+}
+
+#foot_text > hr {
+	border-top: 1px solid #ccc;	
+}
+
+/* 클래스 a태그나 float_left 등 */
+.float_left {
+	float: left;
+}
+
+.login_a:link {
+	color: white;
+	text-decoration: none;
+}
+
+.login_a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+.login_a:hover {
+	color: white;
+	font: bold;
+	text-decoration: none;
+}
+
+.menu_a:link {
+	color: black;
+	text-decoration: none;
+}
+
+.menu_a:visited {
+	color: black;
+	text-decoration: none;
+}
+
+.menu_a:hover {
+	font: bold;
+	text-decoration: none;
+}
